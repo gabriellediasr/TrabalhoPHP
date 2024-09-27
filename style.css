@@ -1,0 +1,132 @@
+/* Estilo base para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte clássica */
+    background-color: #f9f9f9; /* Cinza muito claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container para os formulários e resultados */
+.form-container, .results-container {
+    width: 90%; /* Aumentei a largura para 90% */
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Branco para o fundo */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para o título */
+h1 {
+    color: #c71585; /* Rosa médio */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os formulários */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para os rótulos dos campos do formulário */
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Estilo para os campos de entrada do formulário */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea,
+select {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilo para o botão do formulário */
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff69b4; /* Rosa claro */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilo para o botão quando o mouse passa por cima */
+button:hover {
+    background-color: #ff1493; /* Rosa escuro */
+}
+
+/* Estilo para links */
+a {
+    color: #c71585; /* Rosa médio */
+    text-decoration: none;
+}
+
+/* Estilo para links quando o mouse passa por cima */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para a tabela de resultados */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilo para a borda da tabela e células */
+table, th, td {
+    border: 1px solid #ccc; /* Borda cinza */
+}
+
+/* Estilo para as células da tabela */
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilo para o cabeçalho da tabela */
+th {
+    background-color: #f0f0f0; /* Cinza muito claro */
+}
+
+/* Estilo para as linhas pares da tabela */
+tr:nth-child(even) {
+    background-color: #fafafa; /* Cinza claro */
+}
+
+/* Container para o botão de exclusão */
+.delete-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinha o botão à direita */
+    margin-top: 10px;
+}
+
+/* Estilo específico para o botão de exclusão */
+.delete-button-container button {
+    background-color: #dc3545; /* Vermelho */
+    margin-left: 10px; /* Espaço entre a biografia e o botão */
+}
+
+.delete-button-container button:hover {
+    background-color: #c82333; /* Vermelho escuro */
+}
+
+/* Container para os botões de navegação */
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Espaço entre os botões */
+    margin-top: 20px; /* Margem acima dos botões */
+}
